@@ -49,7 +49,7 @@ const f3 = () => {
   ]
 
   for (let etudiant of etudiantObjectsArray) { 
-    console.log(etudiant.nom + "-" + etudiant.prenom + "-" + etudiant.age);
+    console.log(`${etudiant.nom}-${etudiant.prenom}-${etudiant.age}`);
   }
 };
 
